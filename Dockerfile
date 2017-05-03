@@ -1,5 +1,5 @@
 FROM python:3.5-alpine
-MAINTAINER Nick Janetakis <nick.janetakis@gmail.com>
+MAINTAINER Jose Emilio Romero <jemromerol@gmail.com>
 
 RUN apk update && apk add build-base postgresql-dev libffi-dev postgresql-client
 
